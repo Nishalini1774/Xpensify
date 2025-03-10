@@ -1,0 +1,121 @@
+/* Apply Background to Whole Page */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\nisha\OneDrive\Desktop\Expense_tracker\expense2.jpeg"); /* Use relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Main Container */
+.app-container {
+  text-align: center;
+  width: 500%;
+  max-width: 1300px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Centered Header *
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Salary Section */
+.salary-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Expense Overview Heading */
+.expense-overview {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+/* Chart Section - Maximized */
+.chart-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 40%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Expense List - Square-Shaped */
+.expense-list {
+  flex: 5;
+  width: 600px;
+  height: 350px;  /* Set height to match width for square shape */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  text-align: justify;
+  overflow-y: auto; /* Allow scrolling if needed */
+  max-width: 1000%;
+  display: block;
+
+}*/
+
+/* Add Expense Section */
+.add-expense {
+  flex: 1.5;
+  max-width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  height: 50px;
+}
+
+/* Input Styling */
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #45a049;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js.download"></script><style>/* Apply Background to Whole Page */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(http://localhost:3000/static/media/expense2.933cea6bb735651d6478.jpeg); /* Use relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Main Container */
+.app-container {
+  text-align: center;
+  width: 500%;
+  max-width: 1300px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Centered Header *
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Salary Section */
+.salary-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Expense Overview Heading */
+.expense-overview {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+/* Chart Section - Maximized */
+.chart-container {
+  flex: 2 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 40%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Expense List - Square-Shaped */
+.expense-list {
+  flex: 5 1;
+  width: 600px;
+  height: 350px;  /* Set height to match width for square shape */
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  text-align: justify;
+  overflow-y: auto; /* Allow scrolling if needed */
+  max-width: 1000%;
+  display: block;
+
+}*/
+
+/* Add Expense Section */
+.add-expense {
+  flex: 1.5 1;
+  max-width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  height: 50px;
+}
+
+/* Input Styling */
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLG1DQUFtQztBQUNuQztFQUNFLFNBQVM7RUFDVCxVQUFVO0VBQ1YseURBQXNGLEVBQUUsc0JBQXNCO0VBQzlHLHNCQUFzQjtFQUN0QiwyQkFBMkI7RUFDM0IsNEJBQTRCO0VBQzVCLGFBQWE7RUFDYixhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1oscURBQXFEO0FBQ3ZEOztBQUVBLG1CQUFtQjtBQUNuQjtFQUNFLGtCQUFrQjtFQUNsQixXQUFXO0VBQ1gsaUJBQWlCO0VBQ2pCLGdCQUFnQjtFQUNoQixhQUFhO0FBQ2Y7O0FBRUE7Ozs7Ozs7O21CQVFtQjtBQUNuQjtFQUNFLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLHFDQUFxQztFQUNyQyxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLFVBQVU7RUFDVixpQkFBaUI7QUFDbkI7O0FBRUEsNkJBQTZCO0FBQzdCO0VBQ0Usa0JBQWtCO0VBQ2xCLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsbUJBQW1CO0FBQ3JCOztBQUVBLHdCQUF3QjtBQUN4QjtFQUNFLGFBQWE7RUFDYiw4QkFBOEI7RUFDOUIsdUJBQXVCO0VBQ3ZCLFdBQVc7RUFDWCxTQUFTO0VBQ1QsZ0JBQWdCO0FBQ2xCOztBQUVBLDhCQUE4QjtBQUM5QjtFQUNFLFNBQU87RUFDUCxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLG1CQUFtQjtFQUNuQixhQUFhO0VBQ2IsY0FBYztFQUNkLDhCQUE4QjtFQUM5QixtQkFBbUI7QUFDckI7O0FBRUEsaUNBQWlDO0FBQ2pDO0VBQ0UsU0FBTztFQUNQLFlBQVk7RUFDWixhQUFhLEdBQUcsK0NBQStDO0VBQy9ELGFBQWE7RUFDYixxQ0FBcUM7RUFDckMsbUJBQW1CO0VBQ25CLG1CQUFtQjtFQUNuQixnQkFBZ0IsRUFBRSw4QkFBOEI7RUFDaEQsZ0JBQWdCO0VBQ2hCLGNBQWM7O0FBRWhCLENBQUM7Ozs7RUFJQyxXQUFTO0VBQ1QsY0FBYztFQUNkLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsbUJBQW1CO0VBQ25CLGFBQWE7RUFDYixxQ0FBcUM7RUFDckMsbUJBQW1CO0VBQ25CLFlBQVk7QUFDZDs7QUFFQSxrQkFBa0I7QUFDbEI7RUFDRSxhQUFhO0VBQ2IsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxtQkFBbUI7RUFDbkIsWUFBWTtFQUNaLGVBQWU7RUFDZixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckIiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBBcHBseSBCYWNrZ3JvdW5kIHRvIFdob2xlIFBhZ2UgKi9cclxuYm9keSB7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiQzpcXFVzZXJzXFxuaXNoYVxcT25lRHJpdmVcXERlc2t0b3BcXEV4cGVuc2VfdHJhY2tlclxcZXhwZW5zZTIuanBlZ1wiKTsgLyogVXNlIHJlbGF0aXZlIHBhdGggKi9cclxuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gIGhlaWdodDogMTAwdmg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtZmFtaWx5OiBHZW9yZ2lhLCAnVGltZXMgTmV3IFJvbWFuJywgVGltZXMsIHNlcmlmO1xyXG59XHJcblxyXG4vKiBNYWluIENvbnRhaW5lciAqL1xyXG4uYXBwLWNvbnRhaW5lciB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHdpZHRoOiA1MDAlO1xyXG4gIG1heC13aWR0aDogMTMwMHB4O1xyXG4gIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgcGFkZGluZzogMjBweDtcclxufVxyXG5cclxuLyogQ2VudGVyZWQgSGVhZGVyICpcclxuaDEge1xyXG4gIGZvbnQtc2l6ZTogMi41cmVtO1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIG1hcmdpbi1ib3R0b206IDE1cHg7XHJcbiAgdGV4dC1zaGFkb3c6IDJweCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC41KTtcclxufVxyXG5cclxuLyogU2FsYXJ5IFNlY3Rpb24gKi9cclxuLnNhbGFyeS1zZWN0aW9uIHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMTUpO1xyXG4gIHBhZGRpbmc6IDE1cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICB3aWR0aDogNTAlO1xyXG4gIG1hcmdpbjogMjBweCBhdXRvO1xyXG59XHJcblxyXG4vKiBFeHBlbnNlIE92ZXJ2aWV3IEhlYWRpbmcgKi9cclxuLmV4cGVuc2Utb3ZlcnZpZXcge1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBmb250LXNpemU6IDJyZW07XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxufVxyXG5cclxuLyogTWFpbiBDb250ZW50IExheW91dCAqL1xyXG4ubWFpbi1jb250ZW50IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICBhbGlnbi1pdGVtczogZmxleC1zdGFydDtcclxuICB3aWR0aDogMTAwJTtcclxuICBnYXA6IDUwcHg7XHJcbiAgbWFyZ2luLXRvcDogMjBweDtcclxufVxyXG5cclxuLyogQ2hhcnQgU2VjdGlvbiAtIE1heGltaXplZCAqL1xyXG4uY2hhcnQtY29udGFpbmVyIHtcclxuICBmbGV4OiAyO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIHBhZGRpbmc6IDIwcHg7XHJcbiAgbWF4LXdpZHRoOiA0MCU7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjIpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbn1cclxuXHJcbi8qIEV4cGVuc2UgTGlzdCAtIFNxdWFyZS1TaGFwZWQgKi9cclxuLmV4cGVuc2UtbGlzdCB7XHJcbiAgZmxleDogNTtcclxuICB3aWR0aDogNjAwcHg7XHJcbiAgaGVpZ2h0OiAzNTBweDsgIC8qIFNldCBoZWlnaHQgdG8gbWF0Y2ggd2lkdGggZm9yIHNxdWFyZSBzaGFwZSAqL1xyXG4gIHBhZGRpbmc6IDIwcHg7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjE1KTtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIHRleHQtYWxpZ246IGp1c3RpZnk7XHJcbiAgb3ZlcmZsb3cteTogYXV0bzsgLyogQWxsb3cgc2Nyb2xsaW5nIGlmIG5lZWRlZCAqL1xyXG4gIG1heC13aWR0aDogMTAwMCU7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcblxyXG59Ki9cclxuXHJcbi8qIEFkZCBFeHBlbnNlIFNlY3Rpb24gKi9cclxuLmFkZC1leHBlbnNlIHtcclxuICBmbGV4OiAxLjU7XHJcbiAgbWF4LXdpZHRoOiAyNSU7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgcGFkZGluZzogMjBweDtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMTUpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgaGVpZ2h0OiA1MHB4O1xyXG59XHJcblxyXG4vKiBJbnB1dCBTdHlsaW5nICovXHJcbmlucHV0LCBidXR0b24ge1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgbWFyZ2luOiA1cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGJvcmRlcjogbm9uZTtcclxufVxyXG5cclxuYnV0dG9uIHtcclxuICBiYWNrZ3JvdW5kOiAjNENBRjUwO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuXHJcbmJ1dHRvbjpob3ZlciB7XHJcbiAgYmFja2dyb3VuZDogIzQ1YTA0OTtcclxufVxyXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="app-container"><h1>Expense Tracker</h1><div class="salary-section"><label>Salary: </label><input type="number" value="10000" fdprocessedid="dzzdu"><h3>Remaining Balance: ₹3456</h3></div><div class="main-content"><div class="chart-container"><h2>Expense Overview</h2><div class="recharts-wrapper" style="position: relative; cursor: default; width: 400px; height: 250px;"><svg class="recharts-surface" width="400" height="250" viewBox="0 0 400 250" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clippath id="recharts2-clip"><rect x="65" y="5" height="210" width="330"></rect></clippath></defs><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="65" y1="215" x2="395" y2="215"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="65" y1="162.5" x2="395" y2="162.5"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="65" y1="110" x2="395" y2="110"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="65" y1="57.5" x2="395" y2="57.5"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="65" y1="5" x2="395" y2="5"></line></g><g class="recharts-cartesian-grid-vertical"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="88.57142857142857" y1="5" x2="88.57142857142857" y2="215"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="182.85714285714286" y1="5" x2="182.85714285714286" y2="215"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="277.14285714285717" y1="5" x2="277.14285714285717" y2="215"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="371.42857142857144" y1="5" x2="371.42857142857144" y2="215"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="65" y1="5" x2="65" y2="215"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="65" y="5" width="330" height="210" x1="395" y1="5" x2="395" y2="215"></line></g></g><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><line orientation="bottom" width="330" height="30" x="65" y="215" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="65" y1="215" x2="395" y2="215"></line><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="330" height="30" x="65" y="215" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="88.57142857142857" y1="221" x2="88.57142857142857" y2="215"></line><text orientation="bottom" width="330" height="30" stroke="none" x="88.57142857142857" y="223" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="88.57142857142857" dy="0.71em">shopping</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="330" height="30" x="65" y="215" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="182.85714285714286" y1="221" x2="182.85714285714286" y2="215"></line><text orientation="bottom" width="330" height="30" stroke="none" x="182.85714285714286" y="223" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="182.85714285714286" dy="0.71em">Cinema</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="330" height="30" x="65" y="215" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="277.14285714285717" y1="221" x2="277.14285714285717" y2="215"></line><text orientation="bottom" width="330" height="30" stroke="none" x="277.14285714285717" y="223" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="277.14285714285717" dy="0.71em">Curd</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="bottom" width="330" height="30" x="65" y="215" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="371.42857142857144" y1="221" x2="371.42857142857144" y2="215"></line><text orientation="bottom" width="330" height="30" stroke="none" x="371.42857142857144" y="223" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="371.42857142857144" dy="0.71em">cinema</tspan></text></g></g></g><g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"><line orientation="left" width="60" height="210" x="5" y="5" class="recharts-cartesian-axis-line" stroke="#666" fill="none" x1="65" y1="5" x2="65" y2="215"></line><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="210" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="215" x2="65" y2="215"></line><text orientation="left" width="60" height="210" stroke="none" x="57" y="215" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">0</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="210" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="162.5" x2="65" y2="162.5"></line><text orientation="left" width="60" height="210" stroke="none" x="57" y="162.5" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">500</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="210" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="110" x2="65" y2="110"></line><text orientation="left" width="60" height="210" stroke="none" x="57" y="110" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">1000</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="210" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="57.5" x2="65" y2="57.5"></line><text orientation="left" width="60" height="210" stroke="none" x="57" y="57.5" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">1500</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><line orientation="left" width="60" height="210" x="5" y="5" class="recharts-cartesian-axis-tick-line" stroke="#666" fill="none" x1="59" y1="5" x2="65" y2="5"></line><text orientation="left" width="60" height="210" stroke="none" x="57" y="8.800000190734863" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#666"><tspan x="57" dy="0.355em">2000</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer recharts-bar-rectangle"><path x="69.71428571428571" y="162.5" width="37" height="52.5" radius="0" fill="#8884d8" name="shopping" class="recharts-rectangle" d="M 69.71428571428571,162.5 h 37 v 52.5 h -37 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="116.85714285714285" y="5" width="37" height="210" radius="0" fill="#8884d8" name="Dance class" class="recharts-rectangle" d="M 116.85714285714285,5 h 37 v 210 h -37 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="164" y="162.5" width="37" height="52.5" radius="0" fill="#8884d8" name="Cinema" class="recharts-rectangle" d="M 164,162.5 h 37 v 52.5 h -37 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="211.14285714285717" y="110" width="37" height="105" radius="0" fill="#8884d8" name="cinema" class="recharts-rectangle" d="M 211.14285714285717,110 h 37 v 105 h -37 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="258.2857142857143" y="210.275" width="37" height="4.724999999999994" radius="0" fill="#8884d8" name="Curd" class="recharts-rectangle" d="M 258.2857142857143,210.275 h 37 v 4.724999999999994 h -37 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="305.42857142857144" y="5.104999999999989" width="37" height="209.895" radius="0" fill="#8884d8" name="Netflix" class="recharts-rectangle" d="M 305.42857142857144,5.104999999999989 h 37 v 209.895 h -37 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="352.5714285714286" y="162.5" width="37" height="52.5" radius="0" fill="#8884d8" name="cinema" class="recharts-rectangle" d="M 352.5714285714286,162.5 h 37 v 52.5 h -37 Z"></path></g></g><g class="recharts-layer"></g></g></svg><div tabindex="-1" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-right recharts-tooltip-wrapper-bottom" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px; transform: translate(98.5714px, 10px);"><div class="recharts-default-tooltip" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); white-space: nowrap;"><p class="recharts-tooltip-label" style="margin: 0px;">shopping</p></div></div></div></div><div><h2>Expenses</h2><ul><li>shopping - ₹500<button fdprocessedid="oo0ytg">Delete</button></li><li>Dance class - ₹2000<button fdprocessedid="tai9ln">Delete</button></li><li>Cinema - ₹500<button fdprocessedid="su1l1">Delete</button></li><li>cinema - ₹1000<button fdprocessedid="jqgodj">Delete</button></li><li>Curd - ₹45<button fdprocessedid="lq8cak">Delete</button></li><li>Netflix - ₹1999<button fdprocessedid="4xpcpq">Delete</button></li><li>cinema - ₹500<button fdprocessedid="sq4p5a">Delete</button></li></ul></div><div class="add-expense-section"><h3>Add Expense</h3><form><input placeholder="Expense Details" type="text" value="" fdprocessedid="h9yik"><input placeholder="Amount" type="number" value="" fdprocessedid="5qmshv"><input type="date" value=""><button type="submit" fdprocessedid="nujck">Add Expense</button></form></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+<span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre; font-size: 16px; letter-spacing: normal;">0</span><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>

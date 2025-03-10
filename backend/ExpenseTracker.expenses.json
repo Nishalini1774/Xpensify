@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "676592d4ad54450d100b5f84"
+  },
+  "title": "Dinner",
+  "amount": 1000,
+  "category": "Food",
+  "date": {
+    "$date": "2024-12-20T15:52:52.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676592eaad54450d100b5f86"
+  },
+  "title": "Netflix",
+  "amount": 399,
+  "category": "Entertainment",
+  "date": {
+    "$date": "2024-12-20T15:53:14.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67659306ad54450d100b5f88"
+  },
+  "title": "Groceries",
+  "amount": 500,
+  "category": "Food",
+  "date": {
+    "$date": "2024-12-20T15:53:42.953Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6766b92db11c1f23931cc8b5"
+  },
+  "title": "Breakfast",
+  "amount": 500,
+  "category": "Food",
+  "date": {
+    "$date": "2024-12-21T12:48:45.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678be8b992ba122ee7167226"
+  },
+  "title": "Entertainment",
+  "amount": 1000,
+  "category": "movie",
+  "date": {
+    "$date": "2025-01-18T00:00:00.000Z"
+  },
+  "__v": 0
+}]
